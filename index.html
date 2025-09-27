@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Shopping List</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <header style="background-color: darkblue; color: white">
+      <h1>Interactive Shopping List</h1>
+    </header>
+    <section>
+      <div>
+        <form action="" id="listForm">
+          <label for="text-input"><h2>List Input</h2></label>
+          <input
+            type="text"
+            id="text-input"
+            name="text-input"
+            placeholder="Add items here"
+          />
+          <button type="submit">Add it!</button>
+        </form>
+        <hr />
+        <section>
+          <h2>Items to purchase:</h2>
+          <ul>
+            <!-- Placeholder for items added with the DOM -->
+          </ul>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
