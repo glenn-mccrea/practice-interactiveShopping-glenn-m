@@ -5,7 +5,7 @@ myForm.addEventListener("submit", (event) => {
   event.preventDefault();
   let textInput = document.getElementById("text-input").value;
   //
-  const addItem = function (txt) {
+  const addItem = (txt) => {
     if (txt !== "") {
       itemList.innerHTML += `<li>${txt}
       <button class="remove-items" style="margin: 5px">Remove</button>
